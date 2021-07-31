@@ -1,0 +1,46 @@
+2021-06-24 16:02:14.310 [http-nio-8888-exec-3] WARN  com.aliyun.oss - [Server]Unable to execute HTTP request: 返回结果无效，无法解析。
+[ErrorCode]: InvalidResponse
+[RequestId]: null
+[HostId]: null
+[ResponseError]:
+<html><head></head><body>The site you are accessing matched the timeout or default action. The URL or page has been blocked.</body></html>
+2021-06-24 16:04:49.542 [RMI TCP Accept-0] WARN  sun.rmi.transport.tcp - RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=61443] throws
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:400)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-24 16:07:52.674 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m1s829ms418µs800ns).
+2021-06-24 16:07:52.897 [RMI TCP Accept-0] WARN  sun.rmi.transport.tcp - RMI TCP Accept-0: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,localport=61443] throws
+java.io.IOException: The server sockets created using the LocalRMIServerSocketFactory only accept connections from clients running on the host where the RMI remote objects have been exported.
+	at sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:114)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:400)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:372)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-24 16:56:43.673 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testController': Unsatisfied dependency expressed through field 'ossUtils'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ossUtils' defined in file [E:\git_project\educ\common\target\classes\educ\service\common\utils\OssUtils.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [educ.service.common.utils.OssUtils]: Constructor threw exception; nested exception is java.lang.NullPointerException
+2021-06-24 20:19:09.410 [http-nio-8888-exec-3] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@21e157b5 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-24 20:19:13.090 [http-nio-8888-exec-4] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7a695573 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-24 20:19:14.519 [http-nio-8888-exec-3] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@60526d47 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-24 20:19:18.093 [http-nio-8888-exec-4] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7e56dee6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-24 20:19:19.524 [http-nio-8888-exec-3] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4ba5c207 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-24 20:19:23.107 [http-nio-8888-exec-4] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3b545f48 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-24 20:19:24.539 [http-nio-8888-exec-3] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@e0b8856 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-24 20:19:28.112 [http-nio-8888-exec-4] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3ad75fb1 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-24 20:19:29.546 [http-nio-8888-exec-3] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@422bb865 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-24 20:19:33.128 [http-nio-8888-exec-4] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@a254755 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-24 20:42:01.030 [http-nio-8888-exec-6] WARN  com.aliyun.oss - [Server]Unable to execute HTTP request: 返回结果无效，无法解析。
+[ErrorCode]: InvalidResponse
+[RequestId]: null
+[HostId]: null
+[ResponseError]:
+<html><head></head><body>The site you are accessing matched the timeout or default action. The URL or page has been blocked.</body></html>
+2021-06-24 20:42:53.685 [http-nio-8888-exec-9] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@72420e83 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-24 20:42:53.686 [http-nio-8888-exec-9] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7ff3c793 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-24 20:42:53.688 [http-nio-8888-exec-9] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1d27f8f8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-24 20:42:53.690 [http-nio-8888-exec-9] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4e1e3120 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-24 20:42:53.691 [http-nio-8888-exec-9] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@57f6de6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-24 20:42:53.692 [http-nio-8888-exec-9] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@64d1ed85 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-24 20:42:53.693 [http-nio-8888-exec-9] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@461329df (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-24 20:42:53.694 [http-nio-8888-exec-9] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@79bb970c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-24 20:42:53.695 [http-nio-8888-exec-9] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7d5c580 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-06-24 20:42:53.696 [http-nio-8888-exec-9] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6c03ad3a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.

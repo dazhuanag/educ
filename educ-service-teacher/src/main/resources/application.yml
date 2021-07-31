@@ -1,0 +1,23 @@
+server:
+  port: 8888
+  servlet:
+    context-path: /educ/service
+
+spring:
+  application:
+    name: educ
+  profiles:
+    active: local
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: rjw_admin
+    password: Rjw19980411
+    url: jdbc:mysql://rm-2ze051phm81h4k7v4so.mysql.rds.aliyuncs.com:3306/educ
+
+
+
+#mybatis日志
+#mybatis-plus:
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+

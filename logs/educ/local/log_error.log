@@ -1,0 +1,9 @@
+2021-07-06 14:02:28.856 [http-nio-8888-exec-7] ERROR educ.service.common.config.GlobalExceptionHandler - 捕获了一个全局异常,cause:{}org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLException: Field 'subject_id' doesn't have a default value
+### The error may involve educ.service.teacher.mapper.EduCourseMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_course  ( id, teacher_id,   title, price, lesson_num, cover,      gmt_create, gmt_modified )  VALUES  ( ?, ?,   ?, ?, ?, ?,      ?, ? )
+### Cause: java.sql.SQLException: Field 'subject_id' doesn't have a default value
+; Field 'subject_id' doesn't have a default value; nested exception is java.sql.SQLException: Field 'subject_id' doesn't have a default value
+2021-07-06 14:47:23.943 [http-nio-8888-exec-4] ERROR e.service.teacher.controller.EduTeacherController - addEduTeacher异常
+2021-07-06 14:47:23.945 [http-nio-8888-exec-4] ERROR educ.service.common.config.GlobalExceptionHandler - 捕获了一个自定义异常:新增讲师异常
